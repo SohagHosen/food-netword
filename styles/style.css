@@ -106,3 +106,23 @@ body {
   margin-top: 40px;
   width: 70%;
 }
+/* recipi section  */
+.recipi-section {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 90%;
+}
+.recipi {
+  text-align: center;
+  margin: auto;
+}
+.recipi p {
+  font-size: 21px;
+  width: 600px;
+}
+.recipi h1 {
+  font-size: 35px;
+  color: #676767;
+}
