@@ -109,20 +109,100 @@ body {
 /* recipi section  */
 .recipi-section {
   margin-top: 60px;
-  display: flex;
-  align-items: center;
   margin: auto;
+  text-align: center;
   width: 90%;
+  margin-top: 50px;
 }
 .recipi {
-  text-align: center;
   margin: auto;
+  text-align: center;
 }
 .recipi p {
   font-size: 21px;
   width: 600px;
+  margin: auto;
+  text-align: center;
 }
 .recipi h1 {
   font-size: 35px;
   color: #676767;
+}
+.recipi-boxs img {
+  width: 100%;
+}
+.recipi-boxs {
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  margin-top: 50px;
+}
+.box {
+  border-radius: 30px;
+  text-align: left;
+  width: 350px;
+  padding: 20px;
+  box-shadow: rgb(239 239 239) 0px 0px 20px 20px;
+}
+.box p {
+  font-size: 20px;
+  color: #7e7e7e;
+}
+.subscriber-section {
+  width: 90%;
+  height: 200px;
+  margin: auto;
+  background: #ffffff;
+  display: flex;
+  margin-top: 100px;
+  box-shadow: rgb(239 239 239) 0px 0px 20px 20px;
+  border-radius: 30px;
+  justify-content: space-around;
+  align-items: center;
+}
+.s-box h1 {
+  font-size: 50px;
+  font-weight: 900px;
+}
+.contact {
+  height: 150px;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+.contact h1 {
+  font-size: 40px;
+  font-weight: 900px;
+}
+.contact ul {
+  list-style: none;
+  width: 250px;
+  margin: auto;
+  text-align: left;
+}
+.contact ul li {
+  margin-top: 10px;
+}
+.footer {
+  width: 100%;
+  margin: auto;
+  height: 200px;
+  background: #000;
+  color: white;
+  margin-top: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer span {
+  color: orange;
+}
+.footer h1 {
+  color: #5c5c5c;
+}
+.footer p {
+  color: #b4b5b7;
 }
