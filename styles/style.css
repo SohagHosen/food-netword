@@ -71,11 +71,10 @@ body {
 /* about section styles  */
 .about {
   margin-top: 50px;
-  background-image: url(../images/shapes/7.png);
+  background-image: url(../images/shapes/Frame\ 57.jpg);
   height: 550px;
   width: 100%;
-}
-.about {
+  background-size: cover;
   display: flex;
   justify-content: center;
 }
